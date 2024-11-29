@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "potatoperks",
+	"version": "${version}",
+	"name": "Potato Perks",
+	"description": "Potatoessss!!",
+	"authors": [
+		"Pengi!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/potatoperks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pengi.potatoperks.PotatoPerks"
+		],
+		"fabric-datagen": [
+			"net.pengi.potatoperks.PotatoPerksDataGenerator"
+		],
+		"client": [
+			"net.pengi.potatoperks.PotatoPerksClient"
+		]
+	},
+	"mixins": [
+		"potatoperks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
