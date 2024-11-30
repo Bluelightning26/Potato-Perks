@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "group": "blue_potato",
+  "ingredient": {
+    "item": "potatoperks:blue_potato"
+  },
+  "result": {
+    "id": "potatoperks:cooked_blue_potato"
+  }
+}

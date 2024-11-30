@@ -18,7 +18,14 @@ public class ModItems {
 
     public static final Item PURPLE_POTATO = registerItem("purple_potato", new Item(new Item.Settings()));
 
+    public static final Item COOKED_PINK_POTATO = registerItem("cooked_pink_potato",
+            new Item(new Item.Settings().food(ModFoodComponents.COOKED_PINK_POTATO)));
 
+    public static final Item COOKED_BLUE_POTATO = registerItem("cooked_blue_potato",
+            new Item(new Item.Settings().food(ModFoodComponents.COOKED_BLUE_POTATO)));
+
+    public static final Item COOKED_ORANGE_POTATO = registerItem("cooked_orange_potato", new Item
+            (new Item.Settings().food(ModFoodComponents.COOKED_ORANGE_POTATO)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PotatoPerks.MOD_ID, name), item);
@@ -33,6 +40,10 @@ public class ModItems {
         entries.add(BLUE_POTATO);
         entries.add(ORANGE_POTATO);
         entries.add(PURPLE_POTATO);
+
+        entries.add(COOKED_PINK_POTATO);
+        entries.add(COOKED_BLUE_POTATO);
+        entries.add(COOKED_ORANGE_POTATO);
 
         } );
     }

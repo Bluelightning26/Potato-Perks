@@ -2,6 +2,7 @@ package net.pengi.potatoperks;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.pengi.potatoperks.block.ModBlocks;
 import net.pengi.potatoperks.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class PotatoPerks implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		FuelRegistry.INSTANCE.add(ModBlocks.ORANGE_POTATO_BLOCK, 15000);
 	}
 }

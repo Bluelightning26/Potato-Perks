@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "group": "orange_potato",
+  "ingredient": {
+    "item": "potatoperks:orange_potato"
+  },
+  "result": {
+    "id": "potatoperks:cooked_orange_potato"
+  }
+}
