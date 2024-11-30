@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "potatoperks:blue_potato_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "potatoperks:blue_potato"
+  }
+}

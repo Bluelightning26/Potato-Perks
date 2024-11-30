@@ -18,7 +18,7 @@ import net.pengi.potatoperks.PotatoPerks;
 public class ModBlocks {
     public static final Block PINK_POTATO_BLOCK = registerBlock("pink_potato_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
+                    .strength(0.5f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.FLOWERING_AZALEA)
                     .velocityMultiplier(1.25f)
@@ -27,7 +27,7 @@ public class ModBlocks {
 
     public static final Block BLUE_POTATO_BLOCK = registerBlock("blue_potato_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
+                    .strength(0.5f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.FLOWERING_AZALEA)
                     .jumpVelocityMultiplier(2f)
@@ -35,13 +35,25 @@ public class ModBlocks {
             ));
 
     public static final Block ORANGE_POTATO_BLOCK = registerBlock("orange_potato_block",
-            new ExperienceDroppingBlock(UniformIntProvider.create(5,10), AbstractBlock.Settings.create()
-                    .strength(1f)
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.5f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.FLOWERING_AZALEA)
             ));
 
+    public static final Block PETRIFIED_POTATO_ORE = registerBlock("petrified_potato_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5), AbstractBlock.Settings.create()
+                    .strength(2f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.AZALEA_LEAVES)
+            ));
 
+    public static final Block PURPLE_POTATO_BLOCK = registerBlock("purple_potato_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.5f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.FLOWERING_AZALEA)
+            ));
 
 
 
@@ -63,6 +75,8 @@ public class ModBlocks {
             entries.add(ModBlocks.PINK_POTATO_BLOCK);
             entries.add(ModBlocks.BLUE_POTATO_BLOCK);
             entries.add(ModBlocks.ORANGE_POTATO_BLOCK);
+            entries.add(ModBlocks.PETRIFIED_POTATO_ORE);
+            entries.add(ModBlocks.PURPLE_POTATO_BLOCK);
         });
     }
     }

@@ -1,8 +1,13 @@
 {
   "item.potatoperks.pink_potato": "Pink Potato",
+  "item.potatoperks.blue_potato": "Blue Potato",
+  "item.potatoperks.orange_potato": "Orange Potato",
+  "item.potatoperks.purple_potato": "Purple Potato",
 
   "block.potatoperks.pink_potato_block": "Block of Pink Potato",
   "block.potatoperks.blue_potato_block": "Block of Blue Potato",
-  "block.potatoperks.orange_potato_block": "Block of Orange Potato"
+  "block.potatoperks.orange_potato_block": "Block of Orange Potato",
+  "block.potatoperks.petrified_potato_ore": "Petrified Potato Ore",
+  "block.potatoperks.purple_potato_block": "Block of Purple Potato"
 
 }

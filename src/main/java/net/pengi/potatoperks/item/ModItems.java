@@ -12,6 +12,11 @@ public class ModItems {
 
     public static final Item PINK_POTATO = registerItem("pink_potato", new Item(new Item.Settings()));
 
+    public static final Item BLUE_POTATO = registerItem("blue_potato", new Item(new Item.Settings()));
+
+    public static final Item ORANGE_POTATO = registerItem("orange_potato", new Item(new Item.Settings()));
+
+    public static final Item PURPLE_POTATO = registerItem("purple_potato", new Item(new Item.Settings()));
 
 
 
@@ -23,7 +28,12 @@ public class ModItems {
         PotatoPerks.LOGGER.info("Registering Mod Items for " + PotatoPerks.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+
         entries.add(PINK_POTATO);
+        entries.add(BLUE_POTATO);
+        entries.add(ORANGE_POTATO);
+        entries.add(PURPLE_POTATO);
+
         } );
     }
 }
