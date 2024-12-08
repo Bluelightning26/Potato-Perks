@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
-import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -14,13 +13,15 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.pengi.potatoperks.PotatoPerks;
+import net.pengi.potatoperks.block.custom.PotatoPortal;
+
+import static net.pengi.potatoperks.item.ModItems.PURPLE_POTATO;
 
 public class ModBlocks {
     public static final Block PINK_POTATO_BLOCK = registerBlock("pink_potato_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(0.5f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.FLOWERING_AZALEA)
+                    .sounds(BlockSoundGroup.FROGLIGHT)
                     .velocityMultiplier(1.25f)
 
             ));
@@ -28,8 +29,7 @@ public class ModBlocks {
     public static final Block BLUE_POTATO_BLOCK = registerBlock("blue_potato_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(0.5f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.FLOWERING_AZALEA)
+                    .sounds(BlockSoundGroup.FROGLIGHT)
                     .jumpVelocityMultiplier(2f)
 
             ));
@@ -37,22 +37,28 @@ public class ModBlocks {
     public static final Block ORANGE_POTATO_BLOCK = registerBlock("orange_potato_block",
             new Block(AbstractBlock.Settings.create()
                     .strength(0.5f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.FLOWERING_AZALEA)
+                    .sounds(BlockSoundGroup.FROGLIGHT)
+                    .slipperiness(0.98f)
+            ));
+
+    public static final Block PURPLE_POTATO_BLOCK = registerBlock("purple_potato_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.5f)
+                    .sounds(BlockSoundGroup.FROGLIGHT)
             ));
 
     public static final Block PETRIFIED_POTATO_ORE = registerBlock("petrified_potato_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2,5), AbstractBlock.Settings.create()
                     .strength(2f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.AZALEA_LEAVES)
+                    .sounds(BlockSoundGroup.STONE)
             ));
 
-    public static final Block PURPLE_POTATO_BLOCK = registerBlock("purple_potato_block",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(0.5f)
+    public static final Block POTATO_PORTAL = registerBlock("potato_portal",
+            new PotatoPortal(AbstractBlock.Settings.create()
+                    .strength(1.0f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.FLOWERING_AZALEA)
+                    .sounds(BlockSoundGroup.BAMBOO)
             ));
 
 
@@ -77,6 +83,7 @@ public class ModBlocks {
             entries.add(ModBlocks.ORANGE_POTATO_BLOCK);
             entries.add(ModBlocks.PETRIFIED_POTATO_ORE);
             entries.add(ModBlocks.PURPLE_POTATO_BLOCK);
+            entries.add(ModBlocks.POTATO_PORTAL);
         });
     }
     }

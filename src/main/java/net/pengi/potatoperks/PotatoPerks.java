@@ -17,6 +17,6 @@ public class PotatoPerks implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModBlocks.ORANGE_POTATO_BLOCK, 15000);
+		FuelRegistry.INSTANCE.add(ModBlocks.ORANGE_POTATO_BLOCK, 6000);
 	}
 }

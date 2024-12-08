@@ -7,12 +7,14 @@
   "item.potatoperks.cooked_pink_potato": "Seared Pink Potato",
   "item.potatoperks.cooked_blue_potato": "Charred Blue Potato",
   "item.potatoperks.cooked_orange_potato": "Scorched Orange Potato",
-  "item.potatoperks.cooked_purple_potato": "To Add!",
+  "item.potatoperks.cooked_purple_potato": "Singed Purple Potato",
 
   "block.potatoperks.pink_potato_block": "Block of Pink Potato",
   "block.potatoperks.blue_potato_block": "Block of Blue Potato",
   "block.potatoperks.orange_potato_block": "Block of Orange Potato",
   "block.potatoperks.petrified_potato_ore": "Petrified Potato Ore",
-  "block.potatoperks.purple_potato_block": "Block of Purple Potato"
+  "block.potatoperks.purple_potato_block": "Block of Purple Potato",
+
+  "block.potatoperks.potato_portal": "Potato Portal"
 
 }

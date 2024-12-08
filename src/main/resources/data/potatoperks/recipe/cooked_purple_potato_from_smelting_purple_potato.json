@@ -5,9 +5,9 @@
   "experience": 0.3,
   "group": "blue_potato",
   "ingredient": {
-    "item": "potatoperks:blue_potato"
+    "item": "potatoperks:purple_potato"
   },
   "result": {
-    "id": "potatoperks:cooked_blue_potato"
+    "id": "potatoperks:cooked_purple_potato"
   }
 }
