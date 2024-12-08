@@ -1,3 +1,4 @@
+![](https://cdn.modrinth.com/data/LcEcNNYX/images/7e7db115bc240a3f48e3e723b902bd6c415da05a.png)
 # Potato Perks Mod
 
 ## Potatoes With Superpowers!
