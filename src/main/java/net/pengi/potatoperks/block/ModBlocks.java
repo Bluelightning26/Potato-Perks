@@ -45,6 +45,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create()
                     .strength(0.5f)
                     .sounds(BlockSoundGroup.FROGLIGHT)
+                    .luminance(state-> 15)
             ));
 
     public static final Block PETRIFIED_POTATO_ORE = registerBlock("petrified_potato_ore",

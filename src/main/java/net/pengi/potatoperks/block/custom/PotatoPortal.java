@@ -38,6 +38,9 @@ public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity enti
             if(itemEntity.getStack().getItem() == ModItems.COOKED_ORANGE_POTATO){
                 itemEntity.setStack(new ItemStack(ModItems.PURPLE_POTATO, itemEntity.getStack().getCount()));
             }
+            if(itemEntity.getStack().getItem() == ModItems.COOKED_PURPLE_POTATO){
+            itemEntity.setStack(new ItemStack(ModItems.PINK_POTATO, itemEntity.getStack().getCount()));
+            }
         }
         super.onSteppedOn(world, pos, state, entity);
 }
