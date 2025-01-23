@@ -2,7 +2,11 @@
 # Potato Perks Minecraft Mod
 
 ## Potatoes With Superpowers!
-
+Craft Powered Potatoes with cool special effects! 
+In the form of blocks they can make you faster, jump, higher, or even slip around! 
+Cook, then consume the potatoes to see the effect of these perks on the fly!
+Use the special Potato Portal to switch between the different awesome potato abilities by throwing a potato on it! 
+There is plenty of fun to be had and many unique mini-game opportunities!
 Check it out on [Modrinth](https://modrinth.com/mod/potato-perks)!
 
 ![](https://cdn.modrinth.com/data/LcEcNNYX/images/f71aa8fbf2d966f5beb41a5a41d3eee9ecdece51.png)
