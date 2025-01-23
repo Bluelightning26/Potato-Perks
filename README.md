@@ -92,6 +92,7 @@ Check it out on [Modrinth](https://modrinth.com/mod/potato-perks)!
 
 **Potato Portal**
 - Converts Cooked Potatoes To Powered of Other Color
+- Obtained by smelting Petrified Potato Ore
   
   (Pink -> Blue -> Orange -> Purple -> Pink)
 
