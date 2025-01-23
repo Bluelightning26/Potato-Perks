@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "potato_portal",
+  "ingredient": {
+    "item": "potatoperks:petrified_potato_ore"
+  },
+  "result": {
+    "id": "potatoperks:potato_portal"
+  }
+}

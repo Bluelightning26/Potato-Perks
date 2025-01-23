@@ -42,6 +42,7 @@ public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity enti
             itemEntity.setStack(new ItemStack(ModItems.PINK_POTATO, itemEntity.getStack().getCount()));
             }
         }
-        super.onSteppedOn(world, pos, state, entity);
+
+    super.onSteppedOn(world, pos, state, entity);
 }
 }

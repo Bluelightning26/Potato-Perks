@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purple_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "potatoperks:purple_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "potatoperks:purple_potato_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_purple_potato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "potatoperks:purple_potato_block"
+    ]
+  }
+}

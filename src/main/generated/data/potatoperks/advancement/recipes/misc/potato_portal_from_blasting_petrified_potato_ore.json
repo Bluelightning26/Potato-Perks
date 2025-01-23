@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_petrified_potato_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "potatoperks:petrified_potato_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:potato_portal_from_blasting_petrified_potato_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_petrified_potato_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:potato_portal_from_blasting_petrified_potato_ore"
+    ]
+  }
+}
