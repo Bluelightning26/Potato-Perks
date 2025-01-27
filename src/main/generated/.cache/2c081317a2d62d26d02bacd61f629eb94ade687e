@@ -1,12 +1,12 @@
-// 1.21.1	2025-01-22T19:05:12.428178	Potato Perks/Model Definitions
+// 1.21.1	2025-01-26T17:51:39.68416	Potato Perks/Model Definitions
 3d67dec2f5fb450a603be75c2c7f7a3d23a1055e assets/potatoperks/models/block/orange_potato_block.json
 0162efcfb33362640a3a4f71efedfc965fe782e8 assets/potatoperks/models/block/potato_portal.json
-e875ade8a10a4b9dd807ad8483ad1dafd526234b assets/potatoperks/models/item/blue_potato.json
 5af7dbe09e271c5ae777f4e9ba84f09c0e431362 assets/potatoperks/models/item/pink_potato_block.json
+e875ade8a10a4b9dd807ad8483ad1dafd526234b assets/potatoperks/models/item/blue_potato.json
 86eb403927c44a8e7740f01fe8afce5621448c2e assets/potatoperks/models/item/cooked_blue_potato.json
 29855bb5567c675ccf44e21c975728654a030e37 assets/potatoperks/models/item/pink_potato.json
-f36c0cbec5e67be15fc8eafd5e67d66a90008114 assets/potatoperks/models/item/blue_potato_block.json
 eaab439242a5dcf84f45bf03fe6978eb516b0ea2 assets/potatoperks/blockstates/blue_potato_block.json
+f36c0cbec5e67be15fc8eafd5e67d66a90008114 assets/potatoperks/models/item/blue_potato_block.json
 3475141921e5b88c046ff938ad6b14ca01adbe7b assets/potatoperks/blockstates/orange_potato_block.json
 955341e6fdbab481e43efc92f10e9dbfb74b0b64 assets/potatoperks/models/block/pink_potato_block.json
 a723bc64f8368875ea034b6ba3931d3fe72fc134 assets/potatoperks/models/block/petrified_potato_ore.json

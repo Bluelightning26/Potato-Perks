@@ -1,5 +1,5 @@
-[19:05:07] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
-[19:05:07] [main/INFO] (FabricLoader) Loading 43 mods:
+[17:51:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[17:51:33] [main/INFO] (FabricLoader) Loading 43 mods:
 	- fabric-api 0.110.0+1.21.1
 	- fabric-api-base 0.4.42+6573ed8c19
 	- fabric-api-lookup-api-v1 1.6.70+b559734419
@@ -43,23 +43,25 @@
 	- minecraft 1.21.1
 	- mixinextras 0.4.1
 	- potatoperks 1.0.0
-[19:05:07] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/dhyanshenoy/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:05:07] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[19:05:07] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[19:05:07] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[19:05:08] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:05:12] [main/INFO] (potatoperks) Registering Mod Items for potatoperks
-[19:05:12] [main/INFO] (potatoperks) Registering Mod Blocks for potatoperks
-[19:05:12] [main/INFO] (FabricDataGenHelper) Running data generator for potatoperks
-[19:05:12] [main/INFO] (Minecraft) Starting provider: Potato Perks/Tags for minecraft:block
-[19:05:12] [main/INFO] (Minecraft) Potato Perks/Tags for minecraft:block finished after 9 ms
-[19:05:12] [main/INFO] (Minecraft) Starting provider: Potato Perks/Tags for minecraft:item
-[19:05:12] [main/INFO] (Minecraft) Potato Perks/Tags for minecraft:item finished after 0 ms
-[19:05:12] [main/INFO] (Minecraft) Starting provider: Potato Perks/Block Loot Tables
-[19:05:12] [main/INFO] (Minecraft) Potato Perks/Block Loot Tables finished after 8 ms
-[19:05:12] [main/INFO] (Minecraft) Starting provider: Potato Perks/Model Definitions
-[19:05:12] [main/INFO] (Minecraft) Potato Perks/Model Definitions finished after 22 ms
-[19:05:12] [main/INFO] (Minecraft) Starting provider: Potato Perks/Recipes
-[19:05:12] [main/INFO] (Minecraft) Potato Perks/Recipes finished after 20 ms
-[19:05:12] [main/INFO] (Minecraft) All providers took: 61 ms
-[19:05:12] [main/INFO] (Minecraft) Caching: total files: 50, old count: 47, new count: 50, removed stale: 1, written: 2
+[17:51:33] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/pengiuser/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:51:33] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[17:51:33] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[17:51:33] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[17:51:34] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[17:51:39] [main/INFO] (potatoperks) Registering Mod Items for potatoperks
+[17:51:39] [main/INFO] (potatoperks) Registering Mod Blocks for potatoperks
+[17:51:39] [main/INFO] (FabricDataGenHelper) Running data generator for potatoperks
+[17:51:39] [main/INFO] (Minecraft) Starting provider: Potato Perks/Tags for minecraft:block
+[17:51:39] [main/INFO] (Minecraft) Potato Perks/Tags for minecraft:block finished after 8 ms
+[17:51:39] [main/INFO] (Minecraft) Starting provider: Potato Perks/Tags for minecraft:item
+[17:51:39] [main/INFO] (Minecraft) Potato Perks/Tags for minecraft:item finished after 0 ms
+[17:51:39] [main/INFO] (Minecraft) Starting provider: Potato Perks/Block Loot Tables
+[17:51:39] [main/INFO] (Minecraft) Potato Perks/Block Loot Tables finished after 8 ms
+[17:51:39] [main/INFO] (Minecraft) Starting provider: Potato Perks/Model Definitions
+[17:51:39] [main/INFO] (Minecraft) Potato Perks/Model Definitions finished after 21 ms
+[17:51:39] [main/INFO] (Minecraft) Starting provider: Potato Perks/Recipes
+[17:51:39] [main/INFO] (Minecraft) Potato Perks/Recipes finished after 18 ms
+[17:51:39] [main/INFO] (Minecraft) Starting provider: Potato Perks/
+[17:51:39] [main/INFO] (Minecraft) Potato Perks/ finished after 2 ms
+[17:51:39] [main/INFO] (Minecraft) All providers took: 61 ms
+[17:51:39] [main/INFO] (Minecraft) Caching: total files: 57, old count: 57, new count: 58, removed stale: 0, written: 0

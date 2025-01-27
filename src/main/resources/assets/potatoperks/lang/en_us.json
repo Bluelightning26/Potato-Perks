@@ -12,8 +12,10 @@
   "block.potatoperks.pink_potato_block": "Block of Pink Potato",
   "block.potatoperks.blue_potato_block": "Block of Blue Potato",
   "block.potatoperks.orange_potato_block": "Block of Orange Potato",
-  "block.potatoperks.petrified_potato_ore": "Petrified Potato Ore",
   "block.potatoperks.purple_potato_block": "Block of Purple Potato",
+
+
+  "block.potatoperks.petrified_potato_ore": "Petrified Potato Ore",
 
   "block.potatoperks.potato_portal": "Potato Portal"
 

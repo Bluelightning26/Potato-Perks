@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "potatoperks:pink_potato_block"
+      "item": "potatoperks:orange_potato_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "potatoperks:pink_potato"
+    "id": "potatoperks:orange_potato"
   }
 }

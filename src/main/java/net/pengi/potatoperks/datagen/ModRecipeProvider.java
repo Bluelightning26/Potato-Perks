@@ -30,7 +30,14 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 "potato_portal");
         offerBlasting(exporter, POTATO_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.POTATO_PORTAL, 0.25f, 100, "potato_portal");
 
+
+        /* IMPORTANT!!!
+         Do all other smelt/blast/smoke json files by hand
+
+         - couldn't work and spent much time searching for a fix :(
+         */
 //
+
 //        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_POTATO, RecipeCategory.MISC, ModBlocks.PINK_POTATO_BLOCK);
 //        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ORANGE_POTATO, RecipeCategory.MISC, ModBlocks.ORANGE_POTATO_BLOCK);
 //        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PURPLE_POTATO, RecipeCategory.MISC, ModBlocks.PURPLE_POTATO_BLOCK);
@@ -87,5 +94,6 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 .input(ModBlocks.BLUE_POTATO_BLOCK)
                 .criterion(hasItem(ModBlocks.BLUE_POTATO_BLOCK), conditionsFromItem(ModBlocks.BLUE_POTATO_BLOCK))
                 .offerTo(exporter);
+
     }
     }
