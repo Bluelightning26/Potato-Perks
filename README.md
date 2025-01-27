@@ -167,10 +167,11 @@ Ex. Running on a Pink Potato Block after consuming a Cooked Pink Potato wil make
 
 ![](https://cdn.modrinth.com/data/LcEcNNYX/images/8eeb304f70770f4e361583a46a287c6e3eb84013.png)
 
-## Bouncy Blue Potato Demo
+## Demos
 
-![](https://cloud-o3abajjpp-hack-club-bot.vercel.app/0bluejump.mp4)
+[Bouncy Blue Potato](https://cloud-o3abajjpp-hack-club-bot.vercel.app/0bluejump.mp4)
 
+[Speedy Pink Potato](https://cloud-394fb79dj-hack-club-bot.vercel.app/0pinkspeed.mp4)
 
 ![](https://cloud-6g71thluu-hack-club-bot.vercel.app/0bluejump.gif)
 
