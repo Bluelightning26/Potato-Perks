@@ -176,4 +176,4 @@ Ex. Running on a Pink Potato Block after consuming a Cooked Pink Potato wil make
 ![](https://cloud-6g71thluu-hack-club-bot.vercel.app/0bluejump.gif)
 
 ### Version 1.21.1 FabricMC
-### Mod Version 1.2.0
+### Mod Version 1.3.0
