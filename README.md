@@ -9,6 +9,8 @@
 **There is plenty of fun to be had and many unique mini-game opportunities!**
 **Check it out on [Modrinth](https://modrinth.com/mod/potato-perks)!**
 
+![](https://hackatime-badge.hackclub.com/U0824G9PTFE/potato-perks-1.21.1/?label=Potato%20Perks)
+
 ![](https://cdn.modrinth.com/data/LcEcNNYX/images/f71aa8fbf2d966f5beb41a5a41d3eee9ecdece51.png)
 
 ## The types of potatoes
